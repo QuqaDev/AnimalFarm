@@ -1,0 +1,97 @@
+body{
+    background-image: url(./images/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 140%;
+    font-family: 'Luckiest Guy';
+}
+
+#title{
+    font-size: 50px;
+    margin-top: 30px;
+    text-align: center;
+    color: #424e79;
+    text-shadow: 3px 3px #8d7feb;
+}
+
+.duck{
+    background-image: url(./images/duck.jpg);
+    background-size: cover;
+}
+.cow{
+    background-image: url(./images/cow.jpg);
+    background-size: cover;
+}
+.chicken{
+    background-image: url(./images/chicken.png);
+    background-size: cover;
+}
+.horse{
+    background-image: url(./images/horse.jpg);
+    background-size: cover;
+}
+.pig{
+    background-image: url(./images/pig.jpg);
+    background-size: cover;
+}
+.sheep{
+    background-image: url(./images/sheep.png);
+    background-size: cover;
+}
+.cat{
+    background-image: url(./images/cat.jpg);
+    background-size: cover;
+}
+.dog{
+    background-image: url(./images/dog.jpg);
+    background-size: cover;
+}
+.mouse{
+    background-image: url(./images/mouse.jpg);
+    background-size: cover;
+}
+.frog{
+    background-image: url(./images/frog.jpg);
+    background-size: cover;
+}
+
+.animal{
+    outline: none;
+    border: 7px solid #4b5267;
+    color: #5d64b4;
+    font-size: 1.4rem;
+    line-height: 2;
+    font-weight: 900;
+    text-shadow: 3px 0 #253135;
+    border-radius: 15px;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+    padding-top: 90px;
+}
+
+.animal-set{
+    margin: 100px 190px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+  }
+
+.pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+}
+
+.footer{
+    margin-top: 0;
+    text-align: center;
+    font-size: 18px;
+    color: #424e79;
+}
+.link{
+    color: #303755;
+}
